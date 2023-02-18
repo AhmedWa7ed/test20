@@ -1,0 +1,45 @@
+      body{
+        overflow-x: hidden;
+      }
+      
+      ul.filter__section {
+        display: flex;
+        width: 600px;
+    }
+
+    ul.filter__section li {
+        list-style-type: none;
+        font-size: 18px;
+        cursor: pointer;
+        /* width: 70px; */
+        background: red;
+        color: #fff;
+        padding: 5px 10px;
+        margin: 5px;
+    }
+
+    ul.filter__section li:hover {
+        background: green;
+    }
+/*  */
+/*  */
+/*  */
+.test{
+    display: flex;
+    justify-content: space-between;
+}
+.spann{
+    width: 50px;
+    height: 20px;
+    background-color: rgba(216, 216, 35, 0.925);
+}
+.ma{
+    margin-right: 30px;
+}
+.card{
+    cursor: pointer;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
